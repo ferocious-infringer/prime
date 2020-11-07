@@ -1,0 +1,4 @@
+nothing:
+
+%: %.c
+	clang -o $@ $<
